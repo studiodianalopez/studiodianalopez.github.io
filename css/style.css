@@ -81,15 +81,14 @@
     }
 
     .col1{
-        padding-left: 50vw
+        padding-left: 50vw;
         padding-top: 8vh;
         padding-bottom: 8vh;
         height: 40vh;
     }
 
     .logo{
-        position: relative;
-        z-index: 1;
+
     }
     .col-bg {
         background-image: url(../img/bg.gif);
