@@ -73,11 +73,13 @@
     }
     .col2 {
         padding-top: 5vh;
+        height: 60vh;
     }
 
     .col1{
         padding-left: 50vw;
-        padding-top: 20vh;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
     }
 
     .logo{
