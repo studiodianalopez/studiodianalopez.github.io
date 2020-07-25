@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+@import url(
+    //fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap
+)
+
 .container {
     display: flex;
     flex-flow: row wrap;
