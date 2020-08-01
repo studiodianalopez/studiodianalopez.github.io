@@ -100,6 +100,10 @@ a:hover{
   color: #ffffff;
 }
 
+.menu-button {
+
+}
+
 
 @media screen and (max-width: 600px) {
     .container {
@@ -121,14 +125,14 @@ a:hover{
         height: 40vh;
     }
 
-    .logo{
+  .logo{
         width: 80px;
         height: 80px;
-        position: absolute; top: 85vh; left: 80vw;
-    }
+        position: fixed; top: 70vh; left: 80vw;
+    } 
 
     .section-title {
-        position: absolute; top: 63vh; left: 7vw;
+        position: fixed; top: 50vh; left: 7vw;
     }
     
     .col-bg {
@@ -136,3 +140,9 @@ a:hover{
         background-size: cover;
     }
   }
+ /* 
+  .menu-button {
+        position: fixed;
+        bottom: 10vh;
+        width: 100%;
+    } */
