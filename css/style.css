@@ -37,19 +37,6 @@
     padding-right: 5vh;
 }
 
-.text-menu {
-    font-family: Raleway extrabold;
-    font-weight: 800;
-    font-size: 6vmin;
-    line-height: 119.9%;
-    text-align: right;
-}
-
-.grey {
-    background-color: #E4E4E4;
-
-}
-
 .col3{
     order: 3;
     width: 50vw;
@@ -59,6 +46,29 @@
     flex-grow: 2;
 }
 
+.text-menu {
+    font-family: Raleway extrabold;
+    font-weight: 800;
+    font-size: 6vmin;
+    line-height: 119.9%;
+    text-align: right;
+}
+
+a {
+    font-family: Raleway extrabold;
+    font-weight: 800;
+}
+
+a:hover{
+
+}
+
+.grey {
+    background-color: #E4E4E4;
+
+}
+
+
 .logo{
     z-index: 1;
 }
@@ -66,6 +76,27 @@
 .icon{
     padding-top: 2vh;
 }
+.section-title {
+
+    /* Abs positioning makes it not take up vert space */position: absolute; top: 10px; left: 3.5vw;
+    
+    /* Border is the new background */background: none;
+    
+    /* Rotate from top left corner (not default) */-webkit-transform-origin: 0 0;-moz-transform-origin:    0 0;-ms-transform-origin:     0 0;-o-transform-origin:      0 0;-webkit-transform: rotate(90deg);-moz-transform:    rotate(90deg);-ms-transform:     rotate(90deg);-o-transform:      rotate(90deg);}
+
+
+.menu-index{
+  margin-left: 10px;
+}
+
+.menu-index:hover{
+  color: #ffffff;
+}
+
+.menu-index-header:hover{
+  color: #ffffff;
+}
+
 
 @media screen and (max-width: 600px) {
     .container {
