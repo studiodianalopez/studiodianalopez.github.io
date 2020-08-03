@@ -48,8 +48,52 @@ header, footer, article, nav, div {
   grid-area: ads; 
   } 
 
+
+  .section-title {
+    position: absolute; top: 30px; left: 38px;
+    background: none;
+    -webkit-transform-origin: 0 0;-moz-transform-origin:    0 0;-ms-transform-origin:     0 0;-o-transform-origin:      0 0;-webkit-transform: rotate(90deg);-moz-transform:    rotate(90deg);-ms-transform:     rotate(90deg);-o-transform:      rotate(90deg);
+    }
+  
+  p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 169.9%;
+    }
+  
+  h1{
+    font-family: Raleway extrabold;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 119.9%;
+    text-align: right;
+  }
+  
+  #img-fit{
+    height: 400px;
+  
+  }
+  
+  #logo-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  #about-text{
+    margin-top: 180px;
+  
+    }
+  
+    #about-txt{
+      color: white;
+    }
+
 /* Stack the layout on small devices/viewports. */
-@media all and (max-width: 600px) {
+@media only screen and (max-width: 600px)  {
   body { 
     grid-template-areas: 
       "ads"
@@ -66,17 +110,17 @@ header, footer, article, nav, div {
     padding: 1.2em 2em 1.2em 40px;
   }
   .section-title {
-    position: fixed!important; top: 60vh!important; left: 86px;
+    position: fixed!important; top: 65vh!important; left: 40px;
     background: none;
     -webkit-transform-origin: 0 0;-moz-transform-origin:    0 0;-ms-transform-origin:     0 0;-o-transform-origin:      0 0;-webkit-transform: rotate(90deg);-moz-transform:    rotate(90deg);-ms-transform:     rotate(90deg);-o-transform:      rotate(90deg);
     }
 
     #img-fit{
-      height: 95.5vw!important;  
+      height: 99vw!important;  
     }
 
     #about-text{
-      margin-top: 0px!important;
+      margin-top: 20px!important;
       }
 
     
@@ -98,45 +142,3 @@ header, footer, article, nav, div {
     margin: 30px 20vw 30px 10vw;
   }
 }
-.section-title {
-  position: absolute; top: 30px; left: 38px;
-  background: none;
-  -webkit-transform-origin: 0 0;-moz-transform-origin:    0 0;-ms-transform-origin:     0 0;-o-transform-origin:      0 0;-webkit-transform: rotate(90deg);-moz-transform:    rotate(90deg);-ms-transform:     rotate(90deg);-o-transform:      rotate(90deg);
-  }
-
-p{
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 169.9%;
-  }
-
-h1{
-  font-family: Raleway extrabold;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 119.9%;
-  text-align: right;
-}
-
-#img-fit{
-  height: 400px;
-
-}
-
-#logo-menu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-}
-
-#about-text{
-  margin-top: 180px;
-
-  }
-
-  #about-txt{
-    color: white;
-  }
