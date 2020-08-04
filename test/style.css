@@ -26,7 +26,7 @@ body {
   grid-column-gap: 1px;
   height: 95vh;
   margin: 30px 30px 30px 50px;
-  background-color: #637D5F;
+  background-color: #748D70;
   }  
 header, footer, article, nav, div {
 
@@ -120,7 +120,7 @@ header, footer, article, nav, div {
     }
 
     #about-text{
-      margin-top: 20px!important;
+      margin-top: 0px!important;
       }
 
     #logo-menu{
