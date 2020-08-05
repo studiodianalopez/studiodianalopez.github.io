@@ -1,0 +1,11 @@
+body{
+    background-color: #637D5F;
+}
+
+.section-title {
+
+    /* Abs positioning makes it not take up vert space */position: absolute; top: 10px; left: 30px;
+    
+    /* Border is the new background */background: none;
+    
+    /* Rotate from top left corner (not default) */-webkit-transform-origin: 0 0;-moz-transform-origin:    0 0;-ms-transform-origin:     0 0;-o-transform-origin:      0 0;-webkit-transform: rotate(90deg);-moz-transform:    rotate(90deg);-ms-transform:     rotate(90deg);-o-transform:      rotate(90deg);}

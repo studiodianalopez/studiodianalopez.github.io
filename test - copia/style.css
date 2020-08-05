@@ -18,7 +18,7 @@ body {
   display: grid;
   grid-template-areas: 
     
-    "nav article img"
+    "nav article ads"
     ;
   grid-template-rows: 1fr;  
   grid-template-columns: 150px 1fr 400px;
@@ -44,8 +44,8 @@ header, footer, article, nav, div {
 #mainNav { 
   grid-area: nav; 
   }
-#image-side { 
-  grid-area: img; 
+#siteAds { 
+  grid-area: ads; 
   } 
 
 
@@ -92,22 +92,11 @@ header, footer, article, nav, div {
       color: white;
     }
 
-    #image-info
-    {
-      font-size: 12px;
-      color: white;
-    }
-
-    #highlight{
-      font-style: italic;
-      font-weight: bold;
-    }
-
 /* Stack the layout on small devices/viewports. */
 @media only screen and (max-width: 600px)  {
   body { 
     grid-template-areas: 
-      "img"
+      "ads"
       "article"
       "nav";
     grid-template-rows:450px 1fr 100px;  
@@ -145,14 +134,14 @@ header, footer, article, nav, div {
       bottom: 50px;
       right: 20px;
     }
-
-    #image-info
-    {
-      margin-left: 40px ;
     }
-  
+    
+
+      
 }
       
+
+}
 
 @media all and (min-width: 576px) {
   footer{
@@ -162,6 +151,6 @@ header, footer, article, nav, div {
 
 @media all and (min-width: 1400px){
   body{
-    /* margin: 30px 20vw 30px 10vw; */
+    margin: 30px 20vw 30px 10vw;
   }
 }
