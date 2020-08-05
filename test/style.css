@@ -94,6 +94,7 @@ header, footer, article, nav, div {
 
     #image-info
     {
+      margin-top: 10px;
       font-size: 12px;
       color: white;
     }
