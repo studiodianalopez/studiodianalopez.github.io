@@ -51,16 +51,16 @@ body {
 }
 
 .text-menu {
-    font-family: 'Tangerine', serif;
-    font-weight: 800;
+    font-family: 'Raleway', serif;
+    font-weight: 700;
     font-size: 6vmin;
     line-height: 119.9%;
     text-align: right;
 }
 
 a {
-    font-family: 'Tangerine', serif;
-    font-weight: 800;
+    font-family: 'Raleway', serif;
+    font-weight: 700;
 }
 
 a:hover{
