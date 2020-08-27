@@ -131,7 +131,7 @@ header, footer, article, nav, div {
     display: none;
   }
   #mainArticle{
-    padding: 10px 2em 1.2em 40px;
+    padding: 10px 1em 1.2em 40px;
   }
   .section-title {
     font-size: 30px;
