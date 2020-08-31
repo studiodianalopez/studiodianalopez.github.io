@@ -31,7 +31,10 @@ body {
 #bio {
   background-color: #748D70;
  } 
-
+ 
+#works {
+  background-color: #999999;
+ } 
 header, footer, article, nav, div {
 
   }
@@ -172,6 +175,10 @@ header, footer, article, nav, div {
 
 @media all and (min-width: 576px) {
   footer{
+    display: none;
+  }
+
+  .work-img-mobile {
     display: none;
   }
 }
