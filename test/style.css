@@ -30,6 +30,7 @@ body {
   margin: 30px 30px 0px 60px;
   }  
 
+
 #bio {
   background-color: #748D70;
  } 
@@ -123,6 +124,16 @@ header, footer, article, nav, div {
       font-style: italic;
       font-weight: bold;
     }
+    .works-items{
+      font-size: 40px;
+      font-weight: 900;
+      
+    }
+
+    .text-menu{
+      line-height: 40px;
+      padding-top: 14px;
+    }
 
 /* Stack the layout on small devices/viewports. */
 @media only screen and (max-width: 600px)  {
@@ -143,7 +154,7 @@ header, footer, article, nav, div {
   }
   .section-title {
     font-size: 30px;
-    position: fixed!important; top: 65vh!important; left: 32px;
+    position: fixed!important; top: 65vh!important; /*left: 32px;*/
     background: none;
     -webkit-transform-origin: 0 0;-moz-transform-origin:    0 0;-ms-transform-origin:     0 0;-o-transform-origin:      0 0;-webkit-transform: rotate(90deg);-moz-transform:    rotate(90deg);-ms-transform:     rotate(90deg);-o-transform:      rotate(90deg);
     }
