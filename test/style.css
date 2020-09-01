@@ -34,7 +34,7 @@ body {
   background-color: #748D70;
  } 
  
-#works {
+#grey {
   background-color: #999999;
  } 
 header, footer, article, nav, div {
@@ -102,6 +102,11 @@ header, footer, article, nav, div {
     margin-top: 180px;
   
     }
+
+    #index-text{
+      margin-top: 75px;
+    
+      }
   
     #about-txt{
       color: white;
@@ -153,6 +158,10 @@ header, footer, article, nav, div {
     #about-text{
       margin-top: 0px!important;
       }
+
+      #index-text{
+        margin-top: 0px!important;
+        }
 
     #logo-menu{
       display: none;
