@@ -108,6 +108,10 @@ a:hover{
 
 }
 
+.non-available{
+    opacity: 0.3;
+  }
+
 
 @media screen and (max-width: 600px) {
     .container {
@@ -142,6 +146,10 @@ a:hover{
     .col-bg {
         background-image: url(../img/bg.gif);
         background-size: cover;
+    }
+    .text-menu{
+        font-size: 9vmin;
+        line-height: 130.9%;
     }
   }
  /* 
