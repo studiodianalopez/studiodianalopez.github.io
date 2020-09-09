@@ -157,6 +157,13 @@ header, footer, article, nav, div {
     .work-date{
       font-size: 30px;
       font-weight: 400;
+      padding-top: 10px;
+    }
+
+    .work-description{
+      font-size: 20px;
+      font-weight: 800;
+      padding-top: 10px;
     }
 
 
@@ -178,7 +185,7 @@ header, footer, article, nav, div {
     padding: 10px 1em 1.2em 40px;
   }
   .section-title {
-    font-size: 30px;
+    font-size: 20px;
     position: fixed!important; top: 65vh!important; /*left: 32px;*/
     background: none;
     -webkit-transform-origin: 0 0;-moz-transform-origin:    0 0;-ms-transform-origin:     0 0;-o-transform-origin:      0 0;-webkit-transform: rotate(90deg);-moz-transform:    rotate(90deg);-ms-transform:     rotate(90deg);-o-transform:      rotate(90deg);
@@ -227,9 +234,18 @@ header, footer, article, nav, div {
       line-height: 30px;
       padding-top: 14px;
     }
-.video{
-  display: none;
-}
+    .video{
+     display: none;
+    }
+
+    .work-titles{
+      font-size: 30px;
+    }
+
+    .title-work{
+      padding-right: 0.5em !important;
+      padding-top: 10px !important;
+    }
 
 
 }
