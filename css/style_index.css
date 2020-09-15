@@ -60,6 +60,37 @@ body{
     justify-content: space-between;
 }
 
+.inactive{
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 1366px){
+    
+    .index-menu{
+        font-size: 40px;
+    }
+
+    .eng-titles{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 950px){
+
+    .logo-size{
+        height: 70vh;
+    }
+    
+    .index-menu{
+        font-size: 26px;
+    }
+
+    .eng-titles{
+        font-size: 14px;
+    }
+
+}
 
 @media screen and (max-width: 600px) {
 
