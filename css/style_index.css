@@ -27,12 +27,26 @@ body{
     
 }
 
-.logo{
+.prensa-ensayo{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.img-section{
  
 }
 
 .logo-size{
     height: 80vh;
+}
+
+.img-article{
+    height: 99.5vh;
+}
+
+.logo-small{
+    height: 20vh;
 }
 
 .index-menu{
@@ -43,7 +57,15 @@ body{
     font-family: Raleway;
     font-weight: 800;
     font-size: 48px;
+    margin-left: 1em;
 }
+
+.prensa-ensayo-menu{
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    }
 
 .eng-titles{
     font-family: Raleway;
@@ -62,6 +84,12 @@ body{
 
 .inactive{
     opacity: 0.3;
+}
+
+.title-line{
+    border-bottom: solid #000000 0.15em;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.4em;
 }
 
 @media screen and (max-width: 1570px){
@@ -90,7 +118,7 @@ body{
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     .index{
         flex-direction: column;
@@ -107,10 +135,8 @@ body{
 
     .index-menu{
         width: 90vw;
-    }
-
-    .index-menu{
         font-size: 24px;
+        margin-left: 0;
     }
 
     .eng-titles{
@@ -118,7 +144,26 @@ body{
     }
 
     .menu2{
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .img-article{
+        display: none;
     }
 
+    .prensa-ensayo-menu{
+        height: 85vh;
+        margin-left: 1em;
+        margin-right: 1em;
+       
+    }
+
+    .logo-small{
+        height: 10vh;
+    }
+
+    .menu2{
+        
+    }
 }
