@@ -1,8 +1,8 @@
 * {
     font-family: raleway;
-    font-weight: inherit;
     font-style: inherit;
     font-size: inherit;
+    line-height: inherit;
     line-height: inherit;
     text-align: inherit;
     color: inherit;
@@ -12,13 +12,18 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-}
+} 
 
 
 body{
-    background-color: #c4c4c4;
+    background-color: #C4C4C4;
     margin: 1px #000000;
-    }
+}
+
+.bio{
+    background-color: #748D70;
+    color: #ffffff;
+}
 
 .index{
     display: flex;
@@ -26,6 +31,15 @@ body{
     margin: 4em;
     
 }
+
+a{
+    text-decoration: underline;  
+}
+
+a:hover {
+    text-decoration: none;
+  }
+  
 
 .prensa-ensayo{
     display: flex;
@@ -90,11 +104,70 @@ body{
     opacity: 0.3;
 }
 
+.logo-header{
+    position: sticky;
+    height: 15vh;
+}
+
+.contact{
+    width: 40vw;
+}
+
 .title-line{
     border-bottom: solid #000000 0.15em;
     padding-bottom: 0.3em;
     margin-bottom: 0.4em;
 }
+
+.circle{
+    clip-path: circle(50%);
+}
+
+.img-about{
+    height: 90%;
+}
+
+.title{
+    font-size: 36px;
+    text-transform: uppercase;
+    width: 30vw;
+    line-height: 20px;
+}
+
+.biography{
+    width: 29vw;
+    margin-left: 3vw;
+    margin-right: 4vw;
+}
+.bio-text{
+    margin-top: 2em;
+    line-height: 2em;
+}
+
+.bio-photo{
+    position: sticky;
+    height: 85vh;
+}
+
+.spanish{
+    font-weight: 600;
+}
+
+figcaption{
+    margin-top: 2em;
+    font-size: 12px;
+    text-align: center;
+}
+
+.title-header{
+    display: none;
+}
+
+header {
+  
+}
+
+
 
 @media screen and (max-width: 1570px){
     
@@ -141,6 +214,25 @@ body{
         line-height: 40px;
     }
 
+    .index-bio :nth-child(1){ order: 1;}
+    .index-bio :nth-child(2){ order: 3;}
+    .index-bio :nth-child(3){ order: 2;}  
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-header{
+        height: 15vw;
+    }
+
+    .biography{
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .logo-size{
         width: 90vw;
         height: 40vh;
@@ -180,7 +272,26 @@ body{
         height: 10vh;
     }
 
-    .menu2{
-        
+    .title-cont{
+        display: none;
+    }
+
+    .title-header{
+        display: block;
+    }
+
+    .img-about {
+        width: 100%;
+    }
+    .circle {
+        clip-path: circle(47%);
+    }
+    .bio-photo {
+        height: 100%;
+    }
+    figcaption {
+        margin-top: 1px;
+        font-size: 12px;
+        text-align: center;
     }
 }
